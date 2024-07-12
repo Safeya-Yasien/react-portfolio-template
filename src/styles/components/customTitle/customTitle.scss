@@ -1,0 +1,21 @@
+@import "../../../variables";
+
+.custom-title {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  color: $white-color;
+  width: fit-content;
+  margin: 0 auto 20px auto;
+  z-index: 1;
+  span {
+    width: 50px;
+    display: block;
+    height: 50px;
+    background: $main-linear-gradient;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: -24px;
+  }
+}
